@@ -1,0 +1,43 @@
+header{
+    background-color:#162660 ;
+}
+ header h1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+ nav{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+ }
+ nav a{
+    text-decoration: none;
+ }
+ nav a:active{
+    color: rgb(248, 180, 191);
+ }
+
+
+ #hero{
+    background-color:#b7d7f8 ;
+    min-height:100vh ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+ #hero [type="button"]{
+   background-color: transparent;
+   color: #F59E51;
+   width: 100%;
+   height: 2cm;
+   border: 2px solid #f1ab6e;
+   border-radius: 40px;
+ }
+
+
+ h3{
+   text-align: center;
+ }
