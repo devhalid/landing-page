@@ -4,100 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>landing</title>
+    <title>DigiFatUp - Landing Page</title>
 </head>
 <body>
-    <header>
-        <h1>DigiFatUp</h1>
-        <nav>
-            <a href="#hero">Accueil </a>
-            <a href="#service">Service</a>
-            <a href="#avantages">avantages</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
 
-    <section id="hero">
-        <h2> Le train vers la digitalisation du business</h2>
-        <p> à l'heure ou tout passe par le numérique,
-            digitaliser son entreprise est un indispensable.
-        </p>
-        <input type="button" value="demander un devis">
-    </section>
+<header>
+    <h1>DigiFatUp</h1>
+    <nav>
+        <a href="#hero">Accueil</a>
+        <a href="#service">Services</a>
+        <a href="#avantages">Avantages</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
 
-   <section id="service">
-  <h2>Nos services</h2>
-
-  <div class="card-container">
-    <div class="card">
-      <img src="card.png" alt="Création de site web">
-      <div class="card-content">
-        <h3>Création de site web</h3>
-        <p>Sites modernes et performants pour votre activité.</p>
-        <a href="#contact" class="btn">En savoir plus</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="card.png" alt="Responsive design">
-      <div class="card-content">
-        <h3>Responsive design</h3>
-        <p>Des sites adaptés à tous les écrans.</p>
-        <a href="#contact" class="btn">En savoir plus</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="card.png" alt="SEO">
-      <div class="card-content">
-        <h3>Optimisation SEO</h3>
-        <p>Améliorez votre visibilité sur Google.</p>
-        <a href="#contact" class="btn">En savoir plus</a>
-      </div>
-    </div>
-  </div>
+<section id="hero">
+    <h2>Le train vers la digitalisation du business</h2>
+    <p>
+        À l'heure où tout passe par le numérique,
+        digitaliser son entreprise est indispensable.
+    </p>
+    <a href="#contact" class="cta-btn">Demander un devis</a>
 </section>
 
-    <section id="avantages">
-  <h2>Pourquoi nous choisir ?</h2>
+<section id="service">
+    <h2>Nos services</h2>
 
-  <div class="advantages-container">
-    <div class="adv-card">
-      <h3>Rapide et efficace</h3>
-      <p>Livraison de votre site dans les délais convenus.</p>
-    </div>
+    <div class="card-container">
+        <div class="card">
+            <img src="card.png" alt="Création de site web">
+            <div class="card-content">
+                <h3>Création de site web</h3>
+                <p>Sites modernes et performant pour votre activité.</p>
+                <a href="#contact" class="btn">En savoir plus</a>
+            </div>
+        </div>
 
-    <div class="adv-card">
-      <h3>100 % Responsive</h3>
-      <p>Un site accessible sur mobile, tablette et ordinateur.</p>
-    </div>
+        <div class="card">
+            <img src="card.png" alt="Responsive design">
+            <div class="card-content">
+                <h3>Responsive design</h3>
+                <p>Des sites adaptés à tous les écrans.</p>
+                <a href="#contact" class="btn">En savoir plus</a>
+            </div>
+        </div>
 
-    <div class="adv-card">
-      <h3>SEO Friendly</h3>
-      <p>Une structure optimisée pour les moteurs de recherche.</p>
+        <div class="card">
+            <img src="card.png" alt="SEO">
+            <div class="card-content">
+                <h3>Optimisation SEO</h3>
+                <p>Améliorez votre visibilité sur Google.</p>
+                <a href="#contact" class="btn">En savoir plus</a>
+            </div>
+        </div>
     </div>
-  </div>
 </section>
 
-    <section id="contact">
-        <h3> Prenez un rendez-vous</h3>
-        <form action="">
-            <label for="userName"> Votre Nom: </label>
-            <input type="text" name="nom" id="userName" placeholder="Nom" required><br>
-            <label for="userFirstName"> votre prénom:</label>
-            <input type="text" name="firstName" id="userFirstName"  placeholder="Prénom" required> <br>
-            <label for="userMail"> Votre email:</label>
-            <input type="email" name="mail" id="userMail" placeholder=" Email" required><br>
-            <label for="user-mess"> votre messages</label>
-            <textarea name="messae" id="user-mess" placeholder="laissez un message" required></textarea><br>
-            <input type="submit" value="Envoyer"><br>
-            <input type="reset" value="Effacer">
+<section id="avantages">
+    <h2>Pourquoi nous choisir ?</h2>
 
-        </form>
-    </section>
+    <div class="advantages-container">
+        <div class="adv-card">
+            <h3>Rapide et efficace</h3>
+            <p>Livraison de votre site dans les délais convenus.</p>
+        </div>
 
-    <footer>
-        <p>© 2026 - Tous droits réservés</p>
-    </footer>
+        <div class="adv-card">
+            <h3>100 % Responsive</h3>
+            <p>Un site accessible sur mobile, tablette et ordinateur.</p>
+        </div>
+
+        <div class="adv-card">
+            <h3>SEO Friendly</h3>
+            <p>Une structure optimisée pour les moteurs de recherche.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Prenez un rendez-vous</h2>
+
+    <form>
+        <label for="userName">Votre nom</label>
+        <input type="text" id="userName" placeholder="Nom" required>
+
+        <label for="userFirstName">Votre prénom</label>
+        <input type="text" id="userFirstName" placeholder="Prénom" required>
+
+        <label for="userMail">Votre email</label>
+        <input type="email" id="userMail" placeholder="Email" required>
+
+        <label for="userMess">Votre message</label>
+        <textarea id="userMess" placeholder="Laissez un message" required></textarea>
+
+        <input type="submit" value="Envoyer">
+        <input type="reset" value="Effacer">
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 - DigiFatUp. Tous droits réservés.</p>
+</footer>
+
 </body>
 </html>
